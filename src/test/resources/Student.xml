@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+    <name>zhangshan</name>
+    <age>23</age>
+    <score>
+        <shuxue>80</shuxue>
+        <yuwen>90</yuwen>
+    </score>
+    <score>
+        <shuxue>null</shuxue>
+    </score>
+</Student>
+
+

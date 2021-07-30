@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="蓝项目" >
+    <test name = "注册模块">
+        <classes>
+            <class name="cui.yongping.cases.RegisterCase"></class>
+            <parameter name="sheetIndex" value="0"></parameter>
+        </classes>
+    </test>
+
+    <test name = "登录模块">
+        <classes>
+            <class name="cui.yongping.cases.LoginCase"></class>
+            <parameter name="sheetIndex" value="1"></parameter>
+        </classes>
+    </test>
+    <test name = "用户信息">
+        <classes>
+            <class name="cui.yongping.cases.UserInfoCase"></class>
+            <parameter name="sheetIndex" value="7"></parameter>
+        </classes>
+    </test>
+
+    <test name = "充值模块">
+        <classes>
+            <class name="cui.yongping.cases.RechargeCase"></class>
+            <parameter name="sheetIndex" value="2"></parameter>
+        </classes>
+    </test>
+
+    <test name = "新增项目">
+        <classes>
+            <class name="cui.yongping.cases.AddCase"></class>
+            <parameter name="sheetIndex" value="3"></parameter>
+        </classes>
+    </test>
+
+    <test name = "管理员登录模块">
+        <classes>
+            <class name="cui.yongping.cases.LoginCase"></class>
+            <parameter name="sheetIndex" value="4"></parameter>
+        </classes>
+    </test>
+
+    <test name = "审核项目">
+        <classes>
+            <class name="cui.yongping.cases.AuditCase"></class>
+            <parameter name="sheetIndex" value="5"></parameter>
+        </classes>
+    </test>
+
+    <test name = "投资">
+        <classes>
+            <class name="cui.yongping.cases.InvetCase"></class>
+            <parameter name="sheetIndex" value="6"></parameter>
+        </classes>
+    </test>
+    <test name = "管理员用户信息">
+        <classes>
+            <class name="cui.yongping.cases.UserInfoCase"></class>
+            <parameter name="sheetIndex" value="7"></parameter>
+        </classes>
+    </test>
+
+</suite>
